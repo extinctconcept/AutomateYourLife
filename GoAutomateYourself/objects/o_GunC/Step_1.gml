@@ -5,12 +5,19 @@ x = spr_playerC.x;
 y = spr_playerC.y-10;
 
 //change the angle of the gun
-image_angle = point_direction(x,y,mouse_x,mouse_y);
+var controllerH = gamepad_axis_value(0,gp_axislh);
+var controllerV = gamepad_axis_value(0,gp_axislv);
+
+if(abs(controllerH)> 0.2) || (abs(controllerV) > 0.2){
+	controllerAngle = point_direction(0,0,controllerH,controllerV);
+}
+image_angle = controllerAngle;
+
 
 fireDelay = fireDelay -1;
 recoil = max(0,recoil -1);
 
-if(mouse_check_button(mb_left)) && (fireDelay < 0){
+if(gamepad_button_check_pressed(0,gp_shoulderrb)) && (fireDelay < 0){
 	recoil=4;
 	fireDelay = 5;
 	with( instance_create_layer(x,y,"bullet", o_BulletC)){
