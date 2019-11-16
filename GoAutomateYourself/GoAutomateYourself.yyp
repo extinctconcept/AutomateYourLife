@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0b124e14-c1bc-439d-928c-8fe7a8edc4ad",
+            "Value": {
+                "id": "702d94ae-f6bb-4e4b-916c-8d4304aed78a",
+                "resourcePath": "sprites\/bkg_backdrop\/bkg_backdrop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ad9b1ca-d7ca-4da8-a9d1-e642de293cbf",
             "Value": {
                 "id": "f829fed0-1302-410b-83aa-16d3a4e0d7d2",
@@ -63,6 +71,14 @@
             }
         },
         {
+            "Key": "2cc4913f-8362-4dab-9ac4-f7820d1b7868",
+            "Value": {
+                "id": "8d13dae2-55fd-49ea-a633-25edbb5327a9",
+                "resourcePath": "sprites\/bkg_foreground\/bkg_foreground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "355ce084-f441-4539-9618-5b4634d18388",
             "Value": {
                 "id": "77c74a4a-5a84-45a0-ae93-32babb55ea4d",
@@ -75,6 +91,14 @@
             "Value": {
                 "id": "bfefd165-5bb3-4d16-aa44-2846af18dcb4",
                 "resourcePath": "sprites\/spr_gun\/spr_gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "40fcb16f-b68b-42f3-a45d-35db22f1de6d",
+            "Value": {
+                "id": "5c15c27b-9785-4057-83d1-a78567a3dea3",
+                "resourcePath": "sprites\/bkg_background\/bkg_background.yy",
                 "resourceType": "GMSprite"
             }
         },
