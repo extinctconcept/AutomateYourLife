@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "6a731487-1c3e-436a-8619-4136c616154e",
+            "Value": {
+                "id": "7582169b-01cc-45d7-aa81-086e94a68ead",
+                "resourcePath": "sprites\/spr_player\/spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7597d306-655a-4b54-beb9-4d1dd517d6c9",
             "Value": {
                 "id": "c94215b9-27d5-434c-81e9-24c2fbd02fd6",
