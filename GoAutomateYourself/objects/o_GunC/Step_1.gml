@@ -20,6 +20,7 @@ recoil = max(0,recoil -1);
 if(gamepad_button_check_pressed(0,gp_shoulderrb)) && (fireDelay < 0){
 	recoil=4;
 	fireDelay = 5;
+	shake(2,10);
 	with( instance_create_layer(x,y,"bullet", o_BulletC)){
 		speed = 25;
 		direction = other.image_angle + random_range(-3,3);
