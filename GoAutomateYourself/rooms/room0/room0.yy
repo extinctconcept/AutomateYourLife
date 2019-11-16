@@ -43,7 +43,7 @@
             "id": "4c7b123b-4607-4223-9292-7fdec56e2987",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -87,12 +87,12 @@
     },
     "roomSettings":     {
         "id": "64dc345e-58cd-4686-a9de-1d670a36108c",
-        "Height": 768,
+        "Height": 1080,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 1920
     },
     "mvc": "1.0",
     "views": [
