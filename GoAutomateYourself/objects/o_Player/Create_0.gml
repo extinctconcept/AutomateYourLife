@@ -5,4 +5,4 @@ hsp = 0;
 vsp = 0;
 grv = 0.35;
 walksp = 4;
-jump = 1;
+jump = 2;

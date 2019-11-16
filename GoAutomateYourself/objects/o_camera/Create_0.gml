@@ -16,3 +16,12 @@ view_camera[0] = camera;
 follow = o_Player;
 xTo = x;
 yTo = y;
+
+// Screenshake
+view_w_half = camera_get_view_width(camera) * 0.5;
+view_h_half = camera_get_view_height(camera) * 0.5;
+
+shake_length = 60;
+shake_magnitude = 6;
+shake_remain = 6;
+buff = 32;
