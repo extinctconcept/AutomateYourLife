@@ -11,7 +11,7 @@ if(place_meeting(x+hsp,y,o_Wall)){
 		x = x + sign(hsp);
 	}
 	hsp = -hsp;
-	vsp = -17
+	vsp = -15	
 }
 x = x + hsp;
 

@@ -263,11 +263,27 @@
             }
         },
         {
+            "Key": "d1bff704-318f-435c-a4b8-80d166beb856",
+            "Value": {
+                "id": "0c3041f3-8cce-40f5-94d2-5c0e8028a05b",
+                "resourcePath": "sprites\/spr_badGuyD\/spr_badGuyD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d55e4e8a-9dfa-4214-afb7-35e97c704e62",
             "Value": {
                 "id": "882152ba-73e2-4727-b033-011928360ecf",
                 "resourcePath": "views\/d55e4e8a-9dfa-4214-afb7-35e97c704e62.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dfa16224-6249-4d9c-b49a-35bdc56cdb7b",
+            "Value": {
+                "id": "937221c5-2376-4359-8fc2-644f62d1d57c",
+                "resourcePath": "objects\/o_Dead\/o_Dead.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -282,8 +298,16 @@
             "Key": "f474ab6e-8d16-4159-95cb-2b7b3fca8aca",
             "Value": {
                 "id": "21cf5c9f-2d9d-44ef-a4ba-fbbf64b5812d",
-                "resourcePath": "objects\/o_badGuy\/o_badGuy.yy",
+                "resourcePath": "objects\/o_DadGuy\/o_DadGuy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa9c7757-5209-4a70-a92f-2fd57091d000",
+            "Value": {
+                "id": "623f421e-64ec-4336-a1f7-60c9cd19e2c7",
+                "resourcePath": "shaders\/shWhite\/shWhite.yy",
+                "resourceType": "GMShader"
             }
         }
     ],
