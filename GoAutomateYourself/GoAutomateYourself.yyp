@@ -47,11 +47,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "0b124e14-c1bc-439d-928c-8fe7a8edc4ad",
             "Value": {
                 "id": "702d94ae-f6bb-4e4b-916c-8d4304aed78a",
                 "resourcePath": "sprites\/bkg_backdrop\/bkg_backdrop.yy",
                 "resourceType": "GMSprite"
+=======
+            "Key": "1a15e1c4-96a6-4f09-aa3d-573360e958e6",
+            "Value": {
+                "id": "e28d35e2-7017-4369-abc1-2213eeff6c0b",
+                "resourcePath": "objects\/o_cross\/o_cross.yy",
+                "resourceType": "GMObject"
+>>>>>>> master
             }
         },
         {
@@ -276,6 +284,14 @@
                 "id": "127c8285-5aa2-4906-ae50-6fcbef820ae8",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa9baf5d-e6b9-4fc0-9202-d9b0347e87e0",
+            "Value": {
+                "id": "3078599f-6acc-4d75-98d9-5d5cb28359b7",
+                "resourcePath": "sprites\/spr_cross\/spr_cross.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
