@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "45e00efd-398c-43e2-9721-2706b62eb3db",
+            "Value": {
+                "id": "20cee852-5688-4294-82aa-0664b35f966d",
+                "resourcePath": "sprites\/spr_playerC\/spr_playerC.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b668fa8-f84d-419f-88ae-c78dcaf53d89",
+            "Value": {
+                "id": "92582a09-3236-4d65-ab8a-37520f1d8da5",
+                "resourcePath": "objects\/o_GunC\/o_GunC.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4dc5845a-51b9-4cfc-8cf0-b93f7b62953b",
             "Value": {
                 "id": "fd46569b-b5cf-40b0-a157-1fe9d651c5a5",
@@ -124,6 +140,22 @@
                 "id": "377f472c-e908-4977-8a7c-98a7b27bb0c3",
                 "resourcePath": "views\/53ba06ea-a66d-4a68-952b-126accfff3d3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "59839077-03e4-4ae7-a6f0-d7bca399ce32",
+            "Value": {
+                "id": "88d2fb0b-40cc-4ab3-b7f2-76f43990690a",
+                "resourcePath": "sprites\/spr_bulletC\/spr_bulletC.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "653e0e5a-ebd5-4fdc-834d-086319dfb86f",
+            "Value": {
+                "id": "2e8ed8e5-981a-4223-a8f1-fb4963b3d129",
+                "resourcePath": "objects\/o_PlayerC\/o_PlayerC.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -239,6 +271,14 @@
             }
         },
         {
+            "Key": "c6fa0243-608a-415d-96a0-4ce26d3ab3ed",
+            "Value": {
+                "id": "64ac400f-3223-4a7e-ab70-9d4d0245006b",
+                "resourcePath": "sprites\/spr_gunC\/spr_gunC.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f044aee1-00f6-4810-bdb3-8c445e81bbd1",
@@ -308,6 +348,14 @@
                 "id": "623f421e-64ec-4336-a1f7-60c9cd19e2c7",
                 "resourcePath": "shaders\/shWhite\/shWhite.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "fbbdab46-551d-4dcb-bc3f-79296d0b14ea",
+            "Value": {
+                "id": "f1b64600-7ace-4052-9be7-8f212b84ba64",
+                "resourcePath": "objects\/o_BulletC\/o_BulletC.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
