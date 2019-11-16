@@ -13,6 +13,7 @@ recoil = max(0,recoil -1);
 if(mouse_check_button(mb_left)) && (fireDelay < 0){
 	recoil=4;
 	fireDelay = 5;
+	shake(2,10);
 	with( instance_create_layer(x,y,"bullet", o_Bullet)){
 		speed = 25;
 		direction = other.image_angle + random_range(-3,3);
