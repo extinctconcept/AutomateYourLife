@@ -21,10 +21,10 @@ camera_set_view_mat(camera, vm);
 
 // parallax code below
 
-var backdrop = layer_get_id("bkg_backdrop");
-var background = layer_get_id("bkg_background");
+var backdrop = layer_get_id("Background");
+var background = layer_get_id("Background2");
 //var foreground = layer_get_id("bkg_foreground");
 
 layer_x(backdrop ,lerp(0, x, 0.75));
-layer_x(background ,lerp(0, x, 0.6));
+layer_x(background ,lerp(0, x, 0.4));
 //layer_x(foreground ,lerp(0, x, 0.2));

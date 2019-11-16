@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 x = spr_playerC.x;
-y = spr_playerC.y-10;
+y = spr_playerC.y-15;
 
 //change the angle of the gun
 var controllerH = gamepad_axis_value(0,gp_axislh);
