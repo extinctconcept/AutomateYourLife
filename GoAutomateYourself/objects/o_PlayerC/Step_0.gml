@@ -19,9 +19,14 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp  + grv;
 
-if(place_meeting(x,y+1,o_Wall))&& (key_jump){
-	vsp = -7;
-}
+ if(place_meeting(x, y + 1, o_Wall)) {
+	jumpCurr = jumpNum;
+ }
+ 
+ if (key_jump && jumpCurr > 0) {
+	jumpCurr -= 1;
+	vsp = -8;
+ }
 
 
 //Horizontal collision 
@@ -45,22 +50,22 @@ if(place_meeting(x,y+vsp,o_Wall)){
 y = y + vsp;
 
 //Animation 
-if(!place_meeting(x,y+1,o_Wall)){
-	sprite_index = spr_playerUp;
+//if(!place_meeting(x,y+1,o_Wall)){
+	sprite_index = spr_playerC;
 	image_speed = 0;
 	if(sign(vsp) > 0){ image_index = 0; }
 	else{ image_index = 1;}
 	
-}
-else {
-	image_speed = 1
-	if (hsp == 0){
-		sprite_index = spr_playerC;
-	}
-	else {
-		sprite_index = spr_playerUp;
-	}
-}
+//}
+//else {
+//	image_speed = 1
+//	if (hsp == 0){
+		//sprite_index = spr_playerC;
+//	}
+//	else {
+//		sprite_index = spr_playerUp;
+//	}
+//}
 
 //change directions when moving
 if (hsp !=0){
